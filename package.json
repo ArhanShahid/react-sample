@@ -1,0 +1,38 @@
+{
+  "name": "react-sample",
+  "version": "1.0.0",
+  "description": "React sample project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "prod": "webpack -p"
+  },
+  "author": "arhanshahid.info",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArhanShahid/react-sample/issues"
+  },
+  "homepage": "https://github.com/ArhanShahid/react-sample#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.0",
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.4.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0",
+    "react-modal": "^3.0.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
